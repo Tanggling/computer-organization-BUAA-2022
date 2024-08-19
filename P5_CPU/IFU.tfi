@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+IFU instance_name (
+    .nowPC(nowPC), 
+    .clk(clk), 
+    .reset(reset), 
+    .PC(PC), 
+    .instru(instru)
+    );
+
+

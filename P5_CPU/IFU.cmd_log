@@ -1,0 +1,14 @@
+vhdtdtfi -lib work D:/codefield/ISE_Verilog/my_CPU/IFU.v -lang verilog -prj my_CPU -o IFU.spl -module IFU -template D:/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 IFU.spl D:/codefield/ISE_Verilog/my_CPU/IFU.sym 
+vhdtdtfi -lang verilog -prj my_CPU -o D:/codefield/ISE_Verilog/my_CPU/IFU.tfi -lib work D:/codefield/ISE_Verilog/my_CPU//IFU.v -module IFU -template D:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work D:/codefield/ISE_Verilog/my_CPU/IFU.v -lang verilog -prj my_CPU -o IFU.spl -module IFU -template D:/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 IFU.spl D:/codefield/ISE_Verilog/my_CPU/IFU.sym 
+vhdtdtfi -lang verilog -prj my_CPU -o D:/codefield/ISE_Verilog/my_CPU/IFU.tfi -lib work D:/codefield/ISE_Verilog/my_CPU//IFU.v -module IFU -template D:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "D:/codefield/ISE_Verilog/my_CPU/IFU.xst" -ofn "D:/codefield/ISE_Verilog/my_CPU/IFU.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim IFU.ngc IFU_synthesis.v 
+xst -intstyle ise -ifn "D:/codefield/ISE_Verilog/my_CPU/IFU.xst" -ofn "D:/codefield/ISE_Verilog/my_CPU/IFU.syr" 
+xst -intstyle ise -ifn "D:/codefield/ISE_Verilog/my_CPU/IFU.xst" -ofn "D:/codefield/ISE_Verilog/my_CPU/IFU.syr" 
+xst -intstyle ise -ifn "D:/codefield/ISE_Verilog/my_CPU/IFU.xst" -ofn "D:/codefield/ISE_Verilog/my_CPU/IFU.syr" 
+xst -intstyle ise -ifn "D:/codefield/ISE_Verilog/my_CPU/IFU.xst" -ofn "D:/codefield/ISE_Verilog/my_CPU/IFU.syr" 
+xst -intstyle ise -ifn "D:/codefield/ISE_Verilog/my_CPU/IFU.xst" -ofn "D:/codefield/ISE_Verilog/my_CPU/IFU.syr" 
+xst -intstyle ise -ifn "D:/codefield/ISE_Verilog/my_CPU/IFU.xst" -ofn "D:/codefield/ISE_Verilog/my_CPU/IFU.syr" 

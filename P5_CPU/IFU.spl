@@ -1,0 +1,11 @@
+[Inputs]
+clk
+reset
+=nowPC[31:0]=
+[Outputs]
+PC
+=instru[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel IFU
+

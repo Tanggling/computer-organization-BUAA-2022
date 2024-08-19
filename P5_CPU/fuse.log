@@ -1,0 +1,45 @@
+Running: D:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/codefield/ISE_Verilog/P5_CPU/mips_tb_isim_beh.exe -prj D:/codefield/ISE_Verilog/P5_CPU/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/NPC.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/MW_Reg.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/IFU.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/GRF.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/FD_Reg.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/fac_ctrl.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/ETX.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/EM_Reg.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/dt.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/DM.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/DE_Reg.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/controller.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/ALU.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/mips.v" into library work
+Analyzing Verilog file "D:/codefield/ISE_Verilog/P5_CPU/mips_tb.v" into library work
+Analyzing Verilog file "D:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IFU
+Compiling module NPC
+Compiling module FD_Reg
+Compiling module controller
+Compiling module ETX
+Compiling module GRF
+Compiling module DE_Reg
+Compiling module dt
+Compiling module ALU
+Compiling module EM_Reg
+Compiling module DM
+Compiling module MW_Reg
+Compiling module fac_ctrl
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 16 Verilog Units
+Built simulation executable D:/codefield/ISE_Verilog/P5_CPU/mips_tb_isim_beh.exe
+Fuse Memory Usage: 32964 KB
+Fuse CPU Usage: 937 ms

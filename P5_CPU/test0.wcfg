@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/codefield/ISE_Verilog/P5_CPU/mips_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/mips_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/ALU/in1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/ALU/in2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/RD1_E_F" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD1_E_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1_E_F[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/RD2_E_F" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD2_E_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2_E_F[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/RD1_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD1_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/RD2_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD2_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
